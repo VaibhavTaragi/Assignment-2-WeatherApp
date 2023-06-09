@@ -1,0 +1,1 @@
+export const url = `https://api.openweathermap.org/data/2.5/weather?units=imperial&appid=895284fb2d2c50a520ea537456963d9c&q=`
