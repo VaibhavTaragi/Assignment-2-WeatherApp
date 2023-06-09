@@ -9,6 +9,7 @@ function App() {
 
 
   const searchLocation = (event) => {
+    //code for fetching data
     if (event.key === 'Enter') {
       axios.get(url+location).then((response) => {
         setData(response.data)
